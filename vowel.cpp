@@ -3,11 +3,11 @@
 using namespace std;
 int main()
 {
-  char a;
+  char v;
   cout<<"Enter the input";
-  cin>>a;
-  if( a=='a'|| a=='e'|| a=='i'|| a== 'o'|| a=='u'||
-  a == 'A'||a== 'E'||a =='I'||a == 'O'||a =='U')
+  cin>>v;
+  if( v=='a'|| v=='e'|| v=='i'|| v== 'o'|| v=='u'||
+   v== 'A'||v== 'E'||v=='I'|| v== 'O'||v=='U')
   {
       cout<<"it is vowel";
   }
