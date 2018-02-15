@@ -3,21 +3,21 @@
 using namespace std;
 int main()
 {
-  int a,b,c;
+  int x,y,z;
   cout<<"Enter the input";
-  cin>>a;
-  cin>>b;
-  cin>>c;
-  if(a>b&&a>c)
+  cin>>x;
+  cin>>y;
+  cin>>z;
+  if(x>y&&x>z)
   {
-      cout<<"a is biggest number";
+      cout<<"x is biggest number";
   }
-  else if(b>c)
+  else if(y>z)
   {
-      cout<<" b is biggest number";
+      cout<<" y is biggest number";
   }
   else
   {
-      cout<<"c is biggest number";
+      cout<<"z is biggest number";
   }
 }
